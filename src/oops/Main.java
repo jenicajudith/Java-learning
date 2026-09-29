@@ -13,10 +13,12 @@ public class Main {
 		Child child=new Child();
 		child.findindex("hello world");
 		child.len("helloo");
-		
-//		Polymorphism poly=new Polymorphism();
-		
-//		System.out.println(poly.arthmetic(10,37));
+//		
+		 Developer c = new Developer();
+       c.name="judi";
+       c.salary=2000;
+       c.pro="java";
+       c.display();
 	}
 
 }

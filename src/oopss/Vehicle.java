@@ -2,7 +2,7 @@ package oopss;
 
 public class Vehicle {
 	private int speed;
-	
+	 
 	
 	int getSpeed() {
 		return speed;
