@@ -6,6 +6,7 @@ public class Main extends Student{
 public static void main(String[] args) {
 	Condition c=new Condition();
 	c.switchcase();
+	c.loop();
 	
 
 }

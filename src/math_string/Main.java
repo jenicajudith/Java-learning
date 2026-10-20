@@ -9,8 +9,7 @@ public static void main(String[] args) {
 	System.out.println(team.charAt(2));
 	System.out.println(team.concat(" "+"Judith"+" "+a)); 
 	System.out.println(a.replaceAll("e","heyyyyy"));
-System.out.println(team.repeat(2));
-	
+    System.out.println(team.repeat(2)); 
 	System.out.println(team.length());
 	System.out.println(team.contains("o"));
 	System.out.println(team.substring(0,4));

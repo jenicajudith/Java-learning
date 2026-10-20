@@ -64,6 +64,29 @@ public class Condition {
 		
 	}
 	}
+	public void loop() {
+		for(int i=0;i<=10;i++) {
+			if(i==2) {
+				continue;
+			}
+			System.out.println(i); 
+		}
+		
+		int i=0;
+		while(++i<=10) {
+			System.out.println(i);
+			
+		}
 	
-
+//	enchanced for loop
+	int[] arr={1,2,3,4};
+	for(int arrs:arr) {
+		System.out.println(arrs);
+	}
+	String[] arr1= {"apple","banana","carrot"};
+	for(String name:arr1) {
+		System.out.println(name);
+	} 
+	}
 }
+
