@@ -13,10 +13,10 @@ public Encapsulation(long accno,int pin, double balance) {
 
 public void setAccno(long accno) {
 	this.accno=accno;
-}
+} 
 public long setAccno() {
 	return accno;
-}
+} 
 public void setPin(int pin) {
 	this.pin=pin;
 }

@@ -6,6 +6,6 @@ public class Datatype_casting {
    Boolean age=true;
    double num=23.4567890;
    
-   
+   String data=String.valueOf(no);
    
 }
